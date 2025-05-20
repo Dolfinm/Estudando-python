@@ -2,6 +2,6 @@
 Frase = str(input('Insiria uma frase qualquer: ')).replace(' ','').upper()
 Palindromo = Frase[::-1]
 if Frase == Palindromo:
-    print('A frase é um palindromo!'.format)
+    print('A frase é um palindromo!')
 else:
     print('A frase não é um palindromo.')
